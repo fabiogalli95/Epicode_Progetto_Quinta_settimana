@@ -7,7 +7,10 @@ html, body{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 
 }
-
+p, h4{
+    margin: 0;
+    padding: 0;
+}
 .backgroundYellow{
     background-color: #ffc017;
     border-bottom: 1px solid #191919;
@@ -58,7 +61,9 @@ button{
 }
 
 /* Main */
-
+#titleContainer button{
+    margin-bottom: 20px;
+}
 h1{
     margin: 0;
     font-size: 106px;
@@ -94,3 +99,171 @@ h3{
 #mContainer{
     width: 50%;
 }
+
+.titleBox{
+    display: flex;
+    flex-direction: column;
+}
+#trendingTitle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.singleTrending{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    width: 300px;
+}
+.trendingContainerSingle{
+    display: flex;
+    flex-direction: column;
+}
+
+.citeTrending{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#trendingContainerSingle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#trendingContainerAll{
+    border-bottom: 1px solid lightgray;
+}
+
+.dateTrending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#newsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.newsBox{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+aside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+   margin-top: 40px;
+   position: sticky;
+   top: 85px;
+}
+aside h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.imagesNews{
+    width: 200px;
+}
+.discoversDivContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.citeTrending img{
+    width: 20px;
+    border-radius: 50%;
+    
+}
+.citeTrending p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.numbers{
+    margin-right: 10px;
+    color: lightgrey;
+}
+.dateTrending p{
+    color: grey;
+    font-size: 16px;
+}
+
+.h4Trending{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.newsTitle{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.newsText{
+    font-size: 14px;
+    padding-top: 4px;
+    color: gray;
+}
+
+#newsBoxContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.discoversDiv{
+    color: gray;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#help{
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+}
+
+.aboutDiv{
+    color: lightgray;
+    margin: 10px;
+    font-size: 18px;
+}
+.news{
+    width: 50%;
+    padding: 20px;
+}
+.backgroundGrey{
+    color: grey;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 5px;
+}
+
